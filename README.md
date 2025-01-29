@@ -37,3 +37,8 @@ As the artificial pressure approaches zero, a check-board pattern emerges in the
 
 ## Results
 The implementation was tested on the cavity benchmark problem and the forward-step benchmark problem. Below are sample results showcasing velocity and pressure fields.
+<p align="center">
+  <img src="image048.png" alt="Confusion Matrix 1" width="500"/>
+  <img src="image050.png" alt="Confusion Matrix 2" width="500"/>
+  <img src="image052.png" alt="Confusion Matrix 2" width="500"/>
+</p>

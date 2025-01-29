@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a finite volume method to solve the Navier-Stokes equations using an artificial pressure approach. The method is applied to the cavity benchmark problem and forward-step benchmark problem. Artificial pressure is introduced to address the decoupling between pressure and velocity fields, prevent pressure oscillations, and allow solving the equations on the same grid without the need for a separate pressure-Poisson equation.
+This project implements a finite volume method to solve the Navier-Stokes equations using an artificial pressure approach. The method is applied to the cavity benchmark problem and forward-step benchmark problem. Artificial pressure is introduced to address the decoupling between pressure and velocity fields, prevent pressure oscillations, and allow solving the equations on the same grid without the need for a staggered grid.
 
 ## Methodology
 

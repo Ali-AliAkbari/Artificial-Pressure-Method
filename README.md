@@ -38,13 +38,13 @@ As the artificial pressure approaches zero, a check-board pattern emerges in the
 ## Results
 The implementation was tested on the cavity benchmark problem and the forward-step benchmark problem. Below are sample results showcasing velocity and pressure fields.
 <p align="center">
-  <img src="Images/image048.png" width="300"/>
-  <img src="Images/image050.png" width="300"/>
-  <img src="Images/image052.png" width="300"/>
+  <img src="Images/image048.png" width="250"/>
+  <img src="Images/image050.png" width="250"/>
+  <img src="Images/image052.png" width="250"/>
 </p>
 <p align="center">
-  <img src="Images/image116.png"  width="300"/>
-  <img src="Images/image118.png"  width="300"/>
-  <img src="Images/image120.png"  width="300"/>
+  <img src="Images/image116.png"  width="250"/>
+  <img src="Images/image118.png"  width="250"/>
+  <img src="Images/image120.png"  width="250"/>
 </p>
 

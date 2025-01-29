@@ -32,7 +32,7 @@ This function is used to exclude solid regions from the computations, ensuring t
 ### Oscillations and Check-Board Pattern with Vanishing Artificial Pressure
 As the artificial pressure approaches zero, a check-board pattern emerges in the pressure domain due to the decoupling between the pressure and velocity fields. This pattern, indicative of instability, occurs because the artificial pressure term, which typically stabilizes the coupling between pressure and velocity, is no longer effective. The figure below illustrates this issue, where a stable pressure field is observed with non-zero artificial pressure, while a check-board pattern appears when artificial pressure is reduced to zero.
 <p align="center">
-  <img src="Images/image037.jpg" width="500"/>
+  <img src="Images/image036.jpg" width="500"/>
 </p>
 
 ## Results

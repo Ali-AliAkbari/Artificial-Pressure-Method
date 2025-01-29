@@ -45,6 +45,11 @@ The implementation was tested on the cavity benchmark problem and the forward-st
   <img src="Images/image052.png" width="250"/>
 </p>
 <p align="center">
+  <img src="Images/image054.png" width="250"/>
+  <img src="Images/image056.png" width="250"/>
+  <img src="Images/image058.png" width="250"/>
+</p>
+<p align="center">
   <img src="Images/image116.png"  width="250"/>
   <img src="Images/image118.png"  width="250"/>
   <img src="Images/image120.png"  width="250"/>

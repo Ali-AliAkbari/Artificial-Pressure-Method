@@ -41,7 +41,7 @@ As the artificial pressure approaches zero, a check-board pattern emerges in the
 
 The implementation of the artificial pressure method was validated using two benchmark problems: the cavity benchmark problem and the forward-step benchmark problem. These test cases were selected to evaluate the performance of the method in different flow configurations.
 
-- **Cavity Benchmark Problem:** This problem involves fluid flow within a square cavity, where the top boundary is moving, and the other boundaries are stationary. It serves as a classical test for incompressible flow solvers, testing the method’s ability to handle flow patterns like recirculating regions and vortex formation.
+- **Cavity Benchmark Problem:** This problem involves fluid flow within a square cavity, where the bottem boundary is moving, and the other boundaries are stationary. It serves as a classical test for incompressible flow solvers, testing the method’s ability to handle flow patterns like recirculating regions and vortex formation.
   
 - **Forward-Step Benchmark Problem:** In this test, the flow encounters a step in a channel, creating a separation bubble. This problem is used to assess how well the method captures the pressure and velocity fields around solid obstacles, testing the ability to resolve the pressure drop and the vortex structure formed downstream of the step.
 

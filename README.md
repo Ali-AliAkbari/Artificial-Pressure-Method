@@ -37,8 +37,16 @@ As the artificial pressure approaches zero, a check-board pattern emerges in the
   <img src="Images/image036.png" width="350"/>
 </p>
 
-## Results
-The implementation was tested on the cavity benchmark problem and the forward-step benchmark problem. Below are sample results showcasing velocity and pressure fields.
+### Results
+
+The implementation of the artificial pressure method was validated using two benchmark problems: the cavity benchmark problem and the forward-step benchmark problem. These test cases were selected to evaluate the performance of the method in different flow configurations.
+
+- **Cavity Benchmark Problem:** This problem involves fluid flow within a square cavity, where the top boundary is moving, and the other boundaries are stationary. It serves as a classical test for incompressible flow solvers, testing the method’s ability to handle flow patterns like recirculating regions and vortex formation.
+  
+- **Forward-Step Benchmark Problem:** In this test, the flow encounters a step in a channel, creating a separation bubble. This problem is used to assess how well the method captures the pressure and velocity fields around solid obstacles, testing the ability to resolve the pressure drop and the vortex structure formed downstream of the step.
+
+The following results show the velocity and pressure fields obtained from these two benchmark cases, demonstrating the accuracy and stability of the solution under various flow conditions.
+
 <p align="center">
   <img src="Images/image048.png" width="250"/>
   <img src="Images/image050.png" width="250"/>

@@ -6,7 +6,7 @@ This project implements a finite volume method to solve the Navier-Stokes equati
 
 ## Methodology
 
-The finite volume method is used for spatial discretization. The artificial pressure approach modifies the governing equations to maintain stability and ensure a coupled solution for velocity and pressure. A structured Cartesian grid is used, and boundary conditions are enforced at the domain edges. For incorporating solid geometries like a forward-step, a mask function is implemented to distinguish fluid and solid regions. The mask assigns a value of 1 to fluid regions and 0 to solid regions, ensuring that computations are performed only in the fluid domain.
+The artificial pressure approach modifies the governing equations to maintain stability and ensure a coupled solution for velocity and pressure. A structured Cartesian grid is used, and boundary conditions are enforced at the domain edges. For incorporating solid geometries like a forward-step, a mask function is implemented to distinguish fluid and solid regions. The mask assigns a value of 1 to fluid regions and 0 to solid regions, ensuring that computations are performed only in the fluid domain.
 
 ### Mask Function Implementation
 
@@ -26,3 +26,8 @@ def mask_fn(x0_s, x1_s, y0_s, y1_s, u, dx, dy):
         for j in range(n_start_step_x + 1, n_end_step_x + 1):
             mask[i, j] = 0
     return mask, n_start_step_x, n_start_step_y, n_end_step_x, n_end_step_y
+```
+This function is used to exclude solid regions from the computations, ensuring that equations are only solved in fluid regions.
+
+## Results
+The implementation was tested on the cavity benchmark problem and the forward-step benchmark problem. Below are sample results showcasing velocity and pressure fields.
